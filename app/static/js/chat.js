@@ -8,7 +8,7 @@ $(function () {
   var updateLock = false;
 
   // Backend API URLs
-  var baseUrl = 'http://127.0.0.1:5000';
+  var baseUrl = 'https://kevinkoh-website.herokuapp.com/';
   var createMessageUrl = `${baseUrl}/messages/`;
   var refreshMessagesUrl = `${baseUrl}/chat/${chatroomID}/updates`;
   var initMessagesUrl = `${baseUrl}/chat/${chatroomID}/last`;
