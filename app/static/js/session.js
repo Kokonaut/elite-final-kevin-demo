@@ -1,6 +1,6 @@
 $(function () {
   // Backend API URLs
-  var baseUrl = 'https://kevinkoh-website.herokuapp.com/';
+  var baseUrl = window.location.origin;
   var createSessionUrl = `${baseUrl}/session/`;
 
   // jQuery Variables
