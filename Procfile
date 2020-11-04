@@ -1,1 +1,1 @@
-web: gunicorn app:lap-app
+web: gunicorn lab-app:app
