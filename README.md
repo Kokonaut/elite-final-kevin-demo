@@ -49,6 +49,8 @@ The typical user stories are as follows:
 Any user with the appropriate link should be able to join a room.
 
 :warning: | Security
+:---: | :---
+
 This is meant to be a working demonstration at an appropriate level of complexity for the course. These chats should not be considered secure or truly private. There are two large issues that aren't addressed:
 * Usernames can be assumed by anyone and there is no entity resolution performed on the backend. IE anyone can claim a username, and two people in the same chat with the same username will be considered the same.
 * Chatrooms are private through obscurity and reliance on probability. Chatrooms are generated/identified through random hash, and collisions are not checked. We do not check authorization on chatrooms (how could we, there are no authenticated entities), and rely on simple randomness to ensure privacy. Collision checking is not included for sake of simplicity for the course.
